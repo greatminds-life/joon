@@ -3,7 +3,7 @@ title: "Welcome to Prestigei Blog"
 logo: logo.png
 email: prestigei@prestigei.com
 description: > # this means to ignore newlines until "url:"
-  This is a blog site of Prestigei institute
+  Welcome to Prestigei blog site. Prestigei is top SAT/ACT institution in New Jersey
 url: "" # the base hostname & protocol for your site
 baseurl: "/p-blog" # the subpath of your site, e.g. /blog/
 twitter_username: jekyllrb
