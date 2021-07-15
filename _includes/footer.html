@@ -7,15 +7,18 @@
             </a>
 
             {% if site.logo %}
-            <a href="{{ site.baseurl }}" >
+            <a href="{{ site.baseurl }}" class="photo circle">
               <span style="background-image: url('{{ site.baseurl }}/assets/images/{{ site.logo }}');">
                 <img src="{{ site.baseurl }}/assets/images/{{ site.logo }}" alt="{{ site.title }}"/>
               </span>
             </a>
             {% endif %}
 
-            <div class="details">
-                <h4><a href="{{ site.url }}" class="url n">{{ site.title }}</a></h4>
+
+        </div>
+        <div id="user_bio">
+            <div class="inner">
+                {{ site.description }}
             </div>
         </div>
 
